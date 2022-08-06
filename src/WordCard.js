@@ -1,6 +1,6 @@
 import React from 'react';
 import CharacterCart from './CharacterCard';
-
+/*round2*/
 export default function WordCard(props){
 
     const activationHandler = c => { 

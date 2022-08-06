@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 export default function CharacterCart(props) {
+/*round2*/
     const [active, setActive] = useState(false);
     const activate = () => {
         if(!active){
