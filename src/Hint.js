@@ -10,4 +10,12 @@ class Hint extends React.Component{
           hint: "โลกสีฟ้าทักทายน้ำเงิน"
         })
       }  
+      render(){
+        return (
+        <div>
+            <button type="button" onClick={this.showhint} >Hint Click!!</button>
+            <p>{this.state.hint}</p>
+        </div>
+        );
+      }
 }
