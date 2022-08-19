@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import WordCard from './WordCard';
+import Hint from './Hint'
 
 const word = "Hello";
 const word1 = "World";
@@ -16,6 +17,9 @@ function App() {
       <WordCard value={word1}/>
       <WordCard value={word2}/>
       <WordCard value={word3}/>
+
+      <Hint></Hint>
+
     </div>
   );
 }
