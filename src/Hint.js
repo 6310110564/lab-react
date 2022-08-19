@@ -5,4 +5,9 @@ class Hint extends React.Component{
         super(props);
         this.state = { hint: ""}
       }
+      showhint = () => {
+        this.setState({
+          hint: "โลกสีฟ้าทักทายน้ำเงิน"
+        })
+      }  
 }
